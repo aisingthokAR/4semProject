@@ -1,0 +1,339 @@
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1452px;
+    height: 1238px;
+    position: relative;
+  }
+  
+  .desktop .overlap-group {
+    position: absolute;
+    width: 1452px;
+    height: 1238px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .rectangle {
+    position: absolute;
+    width: 1452px;
+    height: 1132px;
+    top: 0;
+    left: 0;
+    background-color: #ecd8d8;
+  }
+  
+  .desktop .digital {
+    position: absolute;
+    width: 1452px;
+    height: 1238px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .desktop .rectangle-2 {
+    position: absolute;
+    width: 934px;
+    height: 1131px;
+    top: 32px;
+    left: 280px;
+    background-color: #d9d9d94c;
+  }
+  
+  .desktop .confirm-password {
+    position: absolute;
+    top: 553px;
+    left: 793px;
+    font-family: "JetBrains Mono-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper {
+    font-family: "JetBrains Mono-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 0;
+  }
+  
+  .desktop .span {
+    font-size: 16px;
+  }
+  
+  .desktop .text-wrapper-2 {
+    position: absolute;
+    top: 720px;
+    left: 793px;
+    font-family: "JetBrains Mono-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-3 {
+    position: absolute;
+    top: 879px;
+    left: 417px;
+    font-family: "JetBrains Mono-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-4 {
+    position: absolute;
+    top: 553px;
+    left: 414px;
+    font-family: "JetBrains Mono-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-5 {
+    position: absolute;
+    top: 337px;
+    left: 803px;
+    font-family: "JetBrains Mono-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-6 {
+    position: absolute;
+    top: 81px;
+    left: 567px;
+    font-family: "JetBrains Mono-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-7 {
+    position: absolute;
+    top: 214px;
+    left: 417px;
+    font-family: "JetBrains Mono-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-8 {
+    position: absolute;
+    top: 337px;
+    left: 423px;
+    font-family: "JetBrains Mono-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-9 {
+    position: absolute;
+    top: 394px;
+    left: 417px;
+    font-family: "JetBrains Mono-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-10 {
+    position: absolute;
+    top: 399px;
+    left: 793px;
+    font-family: "JetBrains Mono-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .rectangle-3 {
+    position: absolute;
+    width: 348px;
+    height: 74px;
+    top: 598px;
+    left: 399px;
+    background-color: #7fbfbf99;
+    border-radius: 20px;
+  }
+  
+  .desktop .rectangle-4 {
+    position: absolute;
+    width: 348px;
+    height: 74px;
+    top: 438px;
+    left: 399px;
+    background-color: #7fbfbf99;
+    border-radius: 20px;
+  }
+  
+  .desktop .rectangle-5 {
+    position: absolute;
+    width: 348px;
+    height: 74px;
+    top: 438px;
+    left: 779px;
+    background-color: #7fbfbf99;
+    border-radius: 20px;
+  }
+  
+  .desktop .text-wrapper-11 {
+    position: absolute;
+    top: 715px;
+    left: 417px;
+    font-family: "JetBrains Mono-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .rectangle-6 {
+    position: absolute;
+    width: 348px;
+    height: 74px;
+    top: 758px;
+    left: 394px;
+    background-color: #7fbfbf99;
+    border-radius: 20px;
+  }
+  
+  .desktop .text-wrapper-12 {
+    position: absolute;
+    top: 778px;
+    left: 443px;
+    font-family: "JetBrains Mono-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .rectangle-7 {
+    position: absolute;
+    width: 348px;
+    height: 74px;
+    top: 922px;
+    left: 394px;
+    background-color: #7fbfbf99;
+    border-radius: 20px;
+  }
+  
+  .desktop .rectangle-8 {
+    position: absolute;
+    width: 348px;
+    height: 74px;
+    top: 260px;
+    left: 399px;
+    background-color: #7fbfbf99;
+    border-radius: 20px;
+  }
+  
+  .desktop .rectangle-9 {
+    position: absolute;
+    width: 348px;
+    height: 74px;
+    top: 260px;
+    left: 779px;
+    background-color: #7fbfbf99;
+    border-radius: 20px;
+  }
+  
+  .desktop .rectangle-10 {
+    position: absolute;
+    width: 348px;
+    height: 74px;
+    top: 757px;
+    left: 779px;
+    background-color: #7fbfbf99;
+    border-radius: 20px;
+  }
+  
+  .desktop .rectangle-11 {
+    position: absolute;
+    width: 348px;
+    height: 74px;
+    top: 598px;
+    left: 779px;
+    background-color: #7fbfbf99;
+    border-radius: 20px;
+  }
+  
+  .desktop .rectangle-12 {
+    position: absolute;
+    width: 192px;
+    height: 88px;
+    top: 1048px;
+    left: 702px;
+    background-color: #8cc7ca;
+    border-radius: 50px;
+  }
+  
+  .desktop .text-wrapper-13 {
+    position: absolute;
+    top: 1076px;
+    left: 747px;
+    font-family: "JetBrains Mono-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .img {
+    position: absolute;
+    width: 348px;
+    height: 73px;
+    top: 1318px;
+    left: -2112px;
+  }

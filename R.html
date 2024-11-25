@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./R.css">
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+    <div class="main">
+        <div class="second">
+        <h2>Voter Registration</h2>
+        </div>
+        <div class="controler">
+
+            <form method="post" action="./R.php" id="myForm" onsubmit="return validateForm()">
+         <div class="controler-one">
+         <label for="one">Full Name:</label><br>
+         <input type="text" placeholder="" name="nameH" id="name"><br>
+         <span id="nameError" class="error"></span><br>
+        </div>
+
+        <div class="both">
+         <div class="controler-two">
+         <label for="two">Email:</label><br>
+         <input type="email" placeholder="" name="emailH" id="email"><br>
+         <span id="emailError" class="error"></span><br>
+        </div>
+
+         <div class="controler-three">
+         <label for="three">Phone No:</label><br>
+         <input type="" id="phone" name="phoneH"><br>
+         <span id="phoneError" class="error"></span><br>
+        </div>
+        </div>
+
+       <div class="both">
+        <div class="controler-two">
+        <label for="two">Password:</label><br>
+        <input type="password" placeholder="" id="password" name="passwordH"><br>
+        <span id="passwordError" class="error"></span><br>
+       </div>
+
+        <div class="controler-three">
+        <label for="three">Confirm Password:</label><br>
+        <input type="" id="Cpassword" name="CpasswordH"><br>
+        <span id="CpasswordError" class="error"></span><br>
+       </div>
+       </div>
+
+         <div class="controler-four">
+         <label for="four">Address:</label><br>
+         <input type="text" placeholder="" id="address" name="addressH"><br>
+         <span id="addressError" class="error"></span><br>
+
+        </div>
+
+         <div class="controler-five">
+         <label for="five">Birth date:</label><br>
+         <input type="date" id="dob" name="BODH"><br>
+         <span id="dobError" class="error"></span><br>
+        </div>
+        
+         <div class="controler-eight">
+         <label for="eighht">Gender:</label><br>
+         <select name="GenderH" id="one" >
+         <option value="">Select Gender</option>
+         <option value="">Male</option>
+         <option value="">Female</option>
+         <option value="">others</option>
+         </select><br><br>
+        </div>
+         <button> Sign Up</button>
+
+         <script>
+            function validateForm() {
+            let valid = true;
+            var name = document.getElementById("nameH").value;
+            var namePatttern = /^[a-zA-Z\s]{3,}$/; 
+            if (!namePatttern.test(name)) {
+                document.getElementById("nameError").innerText = "Name must be at least 3 characters long and contain only letters.";
+                valid = false;
+            } else {
+                document.getElementById("nameError").innerText = "";
+            }
+        
+            var email = document.getElementById("emailH").value;
+                        var emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+                        if (!emailPattern.test(email)) {
+                            document.getElementById("emailError").innerText = "Invalid email address.";
+                            valid = false;
+                        } else {
+                            document.getElementById("emailError").innerText = "";
+                        }
+        
+            var password = document.getElementById("passwordH").value;
+                        var passwordPattern = /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$/;
+                        if (!passwordPattern.test(password)) {
+                            document.getElementById("passwordError").innerText = "Password must contain at least one uppercase letter, one number, and one special character.";
+                            valid = false;
+                        } else {
+                            document.getElementById("passwordError").innerText = "";
+                        }
+
+            var Cpassword = document.getElementById("CpasswordH").value;
+                        if (password !== Cpassword) {
+                            document.getElementById("CpasswordError").innerText = "Passwords do not match.";
+                            valid = false;
+                        } else {
+                            document.getElementById("CpasswordError").innerText = "";
+                        }
+
+            var address = document.getElementById("addressH").value;
+            if (address.length < 10 || address.length > 50) {
+                document.getElementById("addressError").innerText = "Invalid address";
+                valid = false;
+            } else {
+                document.getElementById("addressError").innerText = "";
+            }
+        
+            var phone = document.getElementById("phoneH").value;
+            var phonePattern = /^9\d{9}$/; 
+            if (!phonePattern.test(phone)) {
+                document.getElementById("phoneError").innerText = " must be 10 digits and start with 9.";
+                valid = false;
+            } else {
+                document.getElementById("phoneError").innerText = "";
+            }
+        
+           /*var dob = document.getElementById("dob").value;
+            var dobPattern =/^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])-\d{4}$/; 
+            if (!dobPattern.test(dob)) {
+                document.getElementById("dobError").innerText = "must be in MM-DD-YYYY format.";
+                valid = false;
+            } else {
+                document.getElementById("dobError").innerText = "";
+            }*/
+            return valid;
+        }
+            </script>
+        </form>
+       </div>
+    </div>
+</div>
+</body>
+</html>
